@@ -1,7 +1,7 @@
 name: oscar
 description: "OSCAR is a state render with bloc."
 version: 0.0.1
-homepage: "f"
+homepage: "https://github.com/mobinbyn/oscar"
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -10,6 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+
+  # Core
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+
+  # Utility
+  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
